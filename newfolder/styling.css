@@ -20,7 +20,7 @@ h1
  border-color:blue;
  text-align:center;
 }
-.button-primary {
+.btn-primary {
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;
@@ -33,9 +33,9 @@ h1
   box-shadow: 0 9px #999;
 }
 
-.button-primary:hover {background-color: #3e8e41}
+.btn-primary:hover {background-color: #3e8e41}
 
-.button-primry:active {
+.btn-primary:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
