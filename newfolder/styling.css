@@ -26,10 +26,24 @@ h1
   box-shadow: 0 9px #999;
 }
 
-.btn-primary:hover {background-color: yellow}
+.btn-primary:hover {background-color: yellow
+           -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
 
 .btn-primry:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+.btn-primary {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: transform;
+            transition-property: transform;
 }
